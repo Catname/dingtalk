@@ -16,5 +16,12 @@
         "psr-4": {
             "Catname\\Dingtalk\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Catname\\Dingtalk\\ServiceProvider"
+            ]
+        }
     }
 }
