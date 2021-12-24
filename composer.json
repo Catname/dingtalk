@@ -1,6 +1,6 @@
 {
     "name": "catname\/dingtalk",
-    "description": "dingtalkhandlers",
+    "description": "dingtalkhandlers for laravel",
     "license": "MIT",
     "authors": [
         {
@@ -9,6 +9,7 @@
         }
     ],
     "require": {
+        "php": "^7.3",
         "ext-openssl": "*",
         "ext-json": "*"
     },

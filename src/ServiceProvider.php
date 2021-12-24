@@ -20,6 +20,13 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         $this->app->alias(DingCallbackCrypto::class, 'dingcallbackcrypto');
     }
 
+    public function boot()
+    {
+        $this->publishes([
+            __DIR__.'/config/dingtalk.php' => config_path('dingtalk.php'),
+        ], 'config');
+    }
+
     public function provides()
     {
         return [DingCallbackCrypto::class, 'dingcallbackcrypto'];
