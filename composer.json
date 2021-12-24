@@ -1,0 +1,20 @@
+{
+    "name": "catname\/dingtalk",
+    "description": "dingtalkhandlers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZhangHQ",
+            "email": "tomcath@foxmail.com"
+        }
+    ],
+    "require": {
+        "ext-openssl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Catname\\Dingtalk\\": "src"
+        }
+    }
+}
