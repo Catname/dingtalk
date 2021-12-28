@@ -3,7 +3,9 @@
 <p align="center"> dingtalkhandlers for Laravel 8</p>
 
 
-钉钉回调加解密
+钉钉回调加解密  
+  
+感谢：主要代码均来自钉钉加解密 DEMO
 
 ## Installing
 
